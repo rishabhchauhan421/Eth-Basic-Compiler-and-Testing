@@ -2,6 +2,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const { Web3 } = require('web3');
 const { abi, evm } = require('./compile');
 
+// This is just for testing purposes. In production, I will use environment variable so don't worry about the secret key.
 const provider = new HDWalletProvider(
   'join squirrel ticket spot spoil velvet expose stereo squeeze blossom cruise bread',
   'https://sepolia.infura.io/v3/999f4134607c4db28981c679ab5210b9'
